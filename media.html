@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média</title>
+    <style>
+    div {
+        width: 28%;
+        height: 28%;
+        margin-left: 35%;
+        margin-right: auto;
+        margin-top: 50px;
+        box-shadow: 1px 1px 12px 2px rgba(0, 0, 0, 0.257);
+        border-radius: 1em;
+        padding: 20px;
+    }
+    h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 30px;
+    }
+    .in {
+        width: 100px;
+        height: 15px;
+        border: 2px solid rgba(109, 109, 109, 0.677);
+        border-radius: 3px;
+    }
+    p {
+        margin-top: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 16px;
+    }
+    .btn {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 15;
+    }
+    </style>
+</head>
+<body>
+    <div><center>
+        <h1>Cálculo de média</h1>
+        <form action="calculoMedia.php" method="get">
+                <p>Informe o nome do aluno:</p>
+                <input type="text" name="nome" class="in">
+            <br>
+                <p>Informe a primeira nota:</p>
+                <input type="text" name="nota1" class="in">
+            <br>
+                <p>Informe a segunda nota:</p>
+                <input type="text" name="nota2" class="in">
+            <br><br>
+                <input type="submit" value="Enviar" class="btn">
+        </form>
+    </div>
+</body>
+</html>
